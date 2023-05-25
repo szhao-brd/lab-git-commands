@@ -35,4 +35,4 @@
 ======================================================================================================================================================
 
 ## Part 3 - Work with Git version control ##
-# 3.1. Create a new TXT file in the 
+# 3.1.  Copy the index.html and the index.js files from the downloaded folder, and paste them into the root directory of your project folder.
