@@ -48,7 +48,7 @@ Use below commands to initialise a new local git repo, and observe the message r
 
 ### Part 3: Adding Git Commits
 ##### 3.1.  Make some changes
-Copy the index.html and the index.js files from the downloaded folder, and paste them into the root directory of your project folder.
+Copy the index.html and the index.js files from the downloaded folder, and paste them into the root directory of your project folder. \n\r
 Once the pasting is complete, open a new command prompt, and within it, use the command line shown below to navigate to your project folder root:
   ```sh
    cd <drive>:/repos/lab-git-commands
