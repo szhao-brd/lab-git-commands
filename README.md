@@ -8,7 +8,7 @@
 To setup the project for the first time, please follow below steps:
 
 1. ##### Verify git installation
- use below command to verify the git installation (ignore the leading double slashes, and do the same for all the rest commands in this lab)
+ ##### use below command to verify the git installation (ignore the leading double slashes, and do the same for all the rest commands in this lab)
    ```sh
    git version
    ```
