@@ -18,7 +18,7 @@ use below commands to configure the git user profile. Replace the text within th
     git config --global user.name <your-name>
     git config --global user.email <your-email>
    ```
-
+ <br /> <br />
 
 ### Part 2: Initialise a new local git repo
 
@@ -39,12 +39,13 @@ User below command to create a new directory for the lab content, and navigate t
    cd lab-git-commands
   ```
 
-##### 2.4.  Observe your directory location and confirm you're currently landing at <drive>:/repos/lab-git-commands
+##### 2.4. Init a new Git repo
+Observe your directory location and confirm you're currently landing at <drive>:/repos/lab-git-commands
 Use below commands to initialise a new local git repo, and observe the message returned in the console:
   ```sh
    git init
   ```
-
+ <br /> <br />
 
 ### Part 3: Adding Git Commits
 ##### 3.1.  Make some changes
@@ -54,17 +55,18 @@ Once the pasting is complete, open a new command prompt, and within it, use the 
    cd <drive>:/repos/lab-git-commands
   ```
 
-
 ##### 3.2.  Stash changes
 \*note: the git stached changes is a temp space where git manages the temporary memory of point-in-time changes. All changes need to be stached first, before they can be committed to the git history. 
   ```sh
    git add --all
   ```
    
-##### 3.3.  Use below command to COMMIT all the new changes.
-A git commit message editor will automatcially prompt out and ask for a commit message. Please enter 'lab commit' in the blank line, as the commit message content.
-After that, hit the 'ESC' key on your keyboard, and in the new blank line, type ':wq' and hit 'Enter' key to save the message.
-Git will commit the changes once the message is saved successfully
+##### 3.3.  Commit changes
+Use the command at the bottom of this section to COMMIT all the new changes.  <br />
+A git commit message editor will automatcially prompt out and ask for a commit message. Please enter 'lab commit' in the blank line, as the commit message content. <br />
+After that, hit the 'ESC' key on your keyboard, and in the new blank line, type ':wq' and hit 'Enter' key to save the message. <br />
+Git will commit the changes once the message is saved successfully.
+
   ```sh
    git commit
   ```
