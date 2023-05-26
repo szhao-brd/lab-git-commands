@@ -47,24 +47,24 @@ Use below commands to initialise a new local git repo, and observe the message r
 
 
 ### Part 3: Adding Git Commits
-##### 3.1.  Copy the index.html and the index.js files from the downloaded folder, and paste them into the root directory of your project folder.
-        Once the pasting is complete, open a new command prompt, and within it, use the command line shown below to navigate to your project folder root:
+##### 3.1.  Make some changes
+Copy the index.html and the index.js files from the downloaded folder, and paste them into the root directory of your project folder.
+Once the pasting is complete, open a new command prompt, and within it, use the command line shown below to navigate to your project folder root:
   ```sh
    cd <drive>:/repos/lab-git-commands
   ```
 
 
-##### 3.2.  Use below command to ADD all changes to the git stashed space:
-        *note: the git stached changes is a temp space where git manages the temporary memory of point-in-time changes. All changes need to be stached first, before they can be committed to the git history. 
+##### 3.2.  Stash changes
+\*note: the git stached changes is a temp space where git manages the temporary memory of point-in-time changes. All changes need to be stached first, before they can be committed to the git history. 
   ```sh
    git add --all
   ```
    
 ##### 3.3.  Use below command to COMMIT all the new changes.
-        A git commit message editor will automatcially prompt out and ask for a commit message. 
-        Please type 'lab commit' in the blank line.
-        After that, hit the 'ESC' key on your keyboard, and in the new blank line, type ':wq' and hit 'Enter' key to save the message.
-        Git will commit the changes once the message is saved successfully
+A git commit message editor will automatcially prompt out and ask for a commit message. Please enter 'lab commit' in the blank line, as the commit message content.
+After that, hit the 'ESC' key on your keyboard, and in the new blank line, type ':wq' and hit 'Enter' key to save the message.
+Git will commit the changes once the message is saved successfully
   ```sh
    git commit
   ```
